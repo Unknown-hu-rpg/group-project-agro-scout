@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  background-color: #0d0d0d;
+  color: #fff;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.topo-lines {
+  position: fixed;
+  inset: 0;
+  background-image: url("./Group.png");
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 60px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: center;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.header__left .logo {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #4cd137;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4cd137;
+}
+.header__left .phone {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.header__left .phone i {
+  color: #4cd137;
+  margin-right: 8px;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.header__right .socials a {
+  display: inline-flex;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #4cd137;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 11px;
+  margin-left: 5px;
+  text-decoration: none;
+}
+.header__right .lang-switch .active {
+  color: #4cd137;
+  border-bottom: 2px solid #4cd137;
+}
+.header__right .user-actions a {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.main-content {
+  padding: 20px 60px;
+}
+.main-content .breadcrumb {
+  font-size: 12px;
+  color: #777;
+  margin: 20px 0;
+}
+.main-content .breadcrumb span {
+  color: #4cd137;
+}
+
+.news-layout {
+  display: flex;
+  position: relative;
+  padding-left: 80px;
+}
+
+.vertical-decor {
+  position: absolute;
+  left: -20px;
+  top: 50px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 80px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.03);
+}
+
+.page-title {
+  margin-bottom: 40px;
+}
+.page-title .accent-label {
+  color: #4cd137;
+  font-weight: bold;
+  margin: 0;
+}
+.page-title h1 {
+  font-size: 45px;
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+.news-card {
+  display: flex;
+  gap: 40px;
+  background: rgba(255, 255, 255, 0.02);
+  padding: 30px;
+  margin-bottom: 35px;
+}
+.news-card__img {
+  position: relative;
+  width: 400px;
+  flex-shrink: 0;
+}
+.news-card__img img {
+  width: 100%;
+  border: 1px solid #111;
+}
+.news-card__img .frame {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #4cd137;
+}
+.news-card__img .frame.tl {
+  top: -10px;
+  left: -10px;
+  border-right: none;
+  border-bottom: none;
+}
+.news-card__img .frame.br {
+  bottom: -10px;
+  right: -10px;
+  border-left: none;
+  border-top: none;
+}
+.news-card__info {
+  flex: 1;
+}
+.news-card__info .date {
+  text-align: right;
+  font-size: 11px;
+  color: #444;
+  margin-bottom: 10px;
+}
+.news-card__info h2 {
+  font-size: 22px;
+  margin: 0 0 15px;
+}
+.news-card__info p {
+  color: #aaa;
+  line-height: 1.6;
+  font-size: 14px;
+}
+.news-card__info .more-link {
+  color: #4cd137;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid #4cd137;
+  padding-bottom: 3px;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px 0;
+}
+.pagination__item {
+  color: #444;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.pagination__item.active {
+  color: #4cd137;
+  border-bottom: 2px solid #4cd137;
+}
+.pagination__item:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 15px 20px;
+  }
+  .header__right .socials, .header__right .lang-switch {
+    display: none;
+  }
+  .hero {
+    padding: 40px 20px;
+  }
+  .hero__content h1 {
+    font-size: 32px;
+  }
+  .hero__content .features {
+    grid-template-columns: 1fr;
+  }
+  .news-card {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .news-card__img {
+    width: 100%;
+  }
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.pagination span {
+  color: #444;
+  font-size: 18px;
+  cursor: pointer;
+}
+.pagination span.active {
+  color: #4cd137;
+  border-bottom: 2px solid #4cd137;
+}
+
+.site-footer {
+  margin-top: 60px;
+  padding: 0 60px 40px;
+}
+.site-footer .footer-line {
+  height: 1px;
+  background: #4cd137;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.site-footer .footer-bottom {
+  text-align: right;
+  color: #777;
+  font-size: 12px;
+}/*# sourceMappingURL=style.css.map */
