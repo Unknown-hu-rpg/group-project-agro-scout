@@ -44,3 +44,89 @@
       align-items: center;
       gap: 55px;
 }
+
+.nav_icon{
+      display: flex;
+      align-items: center;
+      gap: 22px;
+}
+
+.nav_icon_link{
+      border: 1px solid #01B601;
+      border-radius: 50px;
+      padding: 8px 8px;
+      color: #FFFF;
+}
+
+.media_link{
+      font-size: 24px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #FFFF;
+}
+
+
+.burger_menu{
+      color: #FFFF;
+      border: 1px solid #FFFF;
+      padding: 8px 8px;
+      border-radius: 50px;
+}
+
+.section1{
+      height: 650px;
+      background-color: #181818F5;
+}
+
+.showcase{
+      display: flex;
+      align-items: center;
+}
+
+.show_tetx{
+      color: #FFFFFF;
+      font-size: 72px;
+      font-weight: 400;
+      padding-top: 115px;
+      line-height: 95px;
+}
+.company_dron{
+      display: flex;
+      align-items: center;
+      padding-top: 50px;
+      gap: 71px;
+}
+
+.show_p{
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #FFFF;
+      width: 564px;
+}
+
+.vector_img{
+      width: 715px;
+      transform: translate(-80px,10px);
+}
+
+.show_static{
+      display: flex;
+      align-items: center;
+      gap: 55px;
+      color: #FFFFFF;
+      padding-top: 50px;
+}
+
+.static_text{
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 48px;
+}
+
+.static_p{
+      font-size: 24px;
+      line-height: 24px;
+      font-weight: 400;
+      padding-top: 16px;
+}
