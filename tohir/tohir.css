@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      list-style: none;
+      text-decoration: none;
+}
+
+.header{
+      background-color: #151515;
+}
+
+.container{
+      width: 1306px;
+      margin: 0 auto;
+}
+
+.navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.nav_logo{
+      display: flex;
+      align-items: center;
+      gap: 11px;
+}
+
+.nav_img{
+      width: 75px;
+      height: 69px;
+}
+
+.nav_phone{
+      font-size: 18px;
+      font-weight: 400;
+      color: #FFFF;
+}
+
+.nav_media{
+      display: flex;
+      align-items: center;
+      gap: 55px;
+}
