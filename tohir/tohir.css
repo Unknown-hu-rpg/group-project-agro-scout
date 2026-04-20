@@ -8,6 +8,10 @@
       text-decoration: none;
 }
 
+body{
+      background-color: #151515;
+      height: 3374px;
+}
 .header {
       background-color: #151515;
 }
@@ -76,12 +80,15 @@
 
 .section1 {
       height: 650px;
-      background-color: #181818F5;
+      background-color: #151515;
 }
+
+
 
 .showcase {
       display: flex;
       align-items: center;
+      justify-content: space-between;
 }
 
 .show_tetx {
@@ -134,7 +141,7 @@
 }
 
 .section2 {
-      background-color: #000;
+      background-color: #151515;
       height: 100%;
 }
 
@@ -188,4 +195,103 @@
       border: 0.5px solid #FFFF;
       width: 200px;
 
+}
+
+.team_text{
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 48px;
+      color: #01B601;
+      padding-top: 170px;
+}
+
+
+.our_team_cards{  
+      display: flex;
+      align-items: center;
+      gap: 17px;
+}
+
+.our_team_card{
+      width: 426px;
+      height: 651px;
+      padding-top: 62px;
+}
+
+.team_img{
+      width: 386px;
+      height: 288px;    
+}
+
+.team_text_h3{
+      font-size: 34px;
+      line-height: 34px;
+      font-weight: 400px;
+      color: #FFFFFF;
+      padding-top: 30px;
+}
+
+.our_team_p{
+      font-size: 24px;
+      line-height: 24px;
+      font-weight: 300;
+      color: #FFFF;
+      padding-top: 26px;
+}
+
+.our_team_p2{
+      font-size: 18px;
+      font-style: light;
+      line-height: 31px;
+      font-weight: 300;
+      color: #FFFF;
+      padding-top: 30px;
+      width: 373px;
+}
+
+.section_4{
+      padding-top: 170px;
+}
+
+.location_text{
+      font-size: 48px;
+      font-weight: 400;
+      color: #02E502;
+}
+
+.location{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transform: translateX(70px);
+      padding-top: 73px;
+}
+
+.location_lists{
+      display: flex;
+      align-items: center;
+      gap: 75px;
+}
+
+.location_link{
+      font-size: 24px;
+      line-height: 39px;
+      color: #FFFF;
+      font-weight: 300;
+}
+
+.location_foregin{
+      position: relative;
+      top: 150px;
+      left: -650px;
+      transform: rotate(-90deg);
+}
+
+.location_russia{
+      font-size: 100px;
+      font-weight: 700;
+      line-height: 100px;
+      color: #46464626;
+      text-transform: uppercase;
+      font-style: bold;
 }
