@@ -7,6 +7,77 @@ body{
     font-family: 'RF Tone', sans-serif;
     background-color: rgba(24, 24, 24, 1);
 }
+
+/*Header*/
+
+.header {
+      background-color: #151515;
+}
+
+.container {
+      width: 1306px;
+      margin: 0 auto;
+}
+
+.navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.nav_logo {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+}
+
+.nav_img {
+      width: 75px;
+      height: 69px;
+}
+
+.nav_phone {
+      font-size: 18px;
+      font-weight: 400;
+      color: #FFFF;
+}
+
+.nav_media {
+      display: flex;
+      align-items: center;
+      gap: 55px;
+}
+
+.nav_icon {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+}
+
+.nav_icon_link {
+      border: 1px solid #01B601;
+      border-radius: 50px;
+      padding: 8px 8px;
+      color: #FFFF;
+}
+
+.media_link {
+      font-size: 24px;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #FFFF;
+}
+
+
+.burger_menu {
+      color: #FFFF;
+      border: 1px solid #FFFF;
+      padding: 8px 8px;
+      border-radius: 50px;
+}
+
+
+/*Section product*/
 .section_product{
     width: 1404px;
 }
@@ -598,4 +669,21 @@ flex-wrap: wrap;
     background-color: rgba(24, 24, 24, 1);
 
 }
+
+/*Footer*/
+
+.site-footer {
+  margin-top: 60px;
+  padding: 0 60px 40px;
+}
+.site-footer .footer-line {
+  height: 1px;
+  background: #4cd137;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.site-footer .footer-bottom {
+  text-align: right;
+  color: #777;
+  font-size: 12px;}
 
